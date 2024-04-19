@@ -1,0 +1,18 @@
+.carrusel-wrap{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    color: white;
+}
+
+.carrusel-images{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.carrusel-images h5{
+    margin-bottom: -10px;
+}

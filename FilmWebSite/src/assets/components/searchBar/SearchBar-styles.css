@@ -1,0 +1,14 @@
+.search-bar-wrap{
+    padding: 50px;
+    color: white;
+}
+
+.search-input{
+    background-color: #1A1A1A; 
+      color: white;
+      border: 1px solid #ccc; 
+      padding: 8px; 
+      border-radius: 4px; 
+      width: 300px;
+      margin-top: 35px;
+}

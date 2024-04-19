@@ -1,0 +1,16 @@
+.categories-wrap{
+    padding: 50px;
+    color: white;
+}
+
+.categories-gallery{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 15px;
+}
+
+.categories-icons{
+    background-color: #1A1A1A;
+    width: 110px;
+}
