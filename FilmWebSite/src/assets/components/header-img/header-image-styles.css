@@ -1,0 +1,51 @@
+.header-img-wrap{
+    background-image: url("./images/Header_img.png");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    position: relative;
+    z-index: 3;
+}
+
+.header-img{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    width: 100%;
+    color: white;
+    height: 300px;
+    margin-left: 15px;
+    
+} 
+
+.film-header-info{
+    margin-top: 200px;
+    width: 400px;
+}
+
+
+
+/* Smartphones (portrait) ----------- */
+@media only screen
+and (max-width : 400px) {
+    .header-img-wrap{
+        height: 400px;
+    } 
+    
+}
+
+/* iPads (portrait) ----------- */
+@media only screen
+and (min-width : 400px)
+and (max-width : 1024px){
+
+    .header-img-wrap{
+        height: 500px;
+    } 
+}
+
+/* Desktops and laptops ----------- */
+@media only screen
+and (min-width : 1224px) {
+/* Styles */
+}

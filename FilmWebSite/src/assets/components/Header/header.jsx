@@ -7,7 +7,7 @@ function Header() {
   return (
     <>
         <div className="header-wrap"> 
-          <div className="header-top">
+          <div className="header">
             <h1 className="header-logo">LOGO</h1>
             {/* <nav>
               <ul className="header-menu"> 
@@ -16,17 +16,9 @@ function Header() {
                 <li><a href="#"></a>Animación</li>
                 <li><a href="#"></a>Documentales</li>
               </ul>
-            </nav> */}
+            </nav> */}  
             <div className="navivar">
               <CiUser className="icon-user"/>
-            </div>
-          </div>
-
-          <div className="header-bot">
-            <div className="film-header-info">
-              <h1>El joker</h1>
-              <button className="Film-more">Ver más</button>
-              <p>Gotam. El comediante Arthur Fleck vive con su madre enferma, quien le ha enseñado desde pequeño a “caminar con una sonrisa”</p>
             </div>
           </div>
         </div>
