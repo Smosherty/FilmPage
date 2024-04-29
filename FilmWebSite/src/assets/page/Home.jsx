@@ -1,5 +1,6 @@
 import React from 'react'
 import Header from '../components/Header/header'
+import HeaderImg from '../components/header-img/Header-img'
 import Title from '../components/Title/Title'
 import Carrusel from '../components/Carrusel/Carrusel'
 import Search from '../components/searchBar/Search'
@@ -12,6 +13,7 @@ function Home() {
   return (
     <>
       <Header/>
+      <HeaderImg/>
       <Title/>
       <Carrusel/>
       <Search/>

@@ -5,8 +5,9 @@ function Interestelar() {
   return (
     <>
         <div className="interestelar-wrap">
+            <div className="interestelar-background"></div>
             <div className="interestelar-content">
-                <img src="" alt="" />
+                <img src="images/Godland.png" alt="ff" />
                 <div className="interestelar-text">
                     <div className="interestelar-title">
                         <h3>Interestelar</h3>
