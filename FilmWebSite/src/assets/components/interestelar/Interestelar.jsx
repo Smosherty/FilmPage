@@ -7,7 +7,10 @@ function Interestelar() {
         <div className="interestelar-wrap">
             <div className="interestelar-background"></div>
             <div className="interestelar-content">
-                <img src="images/Godland.png" alt="ff" />
+                <div className="interestelas-img">
+                <img className="interestelas-img" src="images/Interestelar.png" alt="ff" />
+                </div>
+                
                 <div className="interestelar-text">
                     <div className="interestelar-title">
                         <h3>Interestelar</h3>

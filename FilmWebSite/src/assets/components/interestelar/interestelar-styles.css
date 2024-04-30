@@ -1,4 +1,44 @@
 .interestelar-wrap{
     padding: 50px;
     color: white;
+    margin-bottom: 50px;
+    margin-left: -30px;
+}
+
+.interestelar-background{
+    background-color: #1A1A1A;
+    height: 350px;
+    z-index: 2;
+    position: absolute;
+    width: 300px;
+    margin-top: -20px;
+    margin-left: 50px;
+}
+
+.interestelar-content{
+    display: flex;
+    gap: 20px;
+    position: relative;
+    z-index: 3;
+}
+
+.interestelar-category{
+    color: #EF4234;
+}
+
+.interestelar-botton{
+    margin-top: 10px;
+    background-color: #EF4234;
+    color: white;
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 100px;
+}
+
+.interestelas-img{
+    height: 280px;
+    width: 160px;
+    object-fit: cover;
+    border-radius: 5%;
 }
