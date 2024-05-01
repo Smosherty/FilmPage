@@ -1,10 +1,12 @@
 .subscription-wrap{
+    display: flex;
     padding: 50px;
     color: white;
     background-color: #1A1A1A;
+    gap: 10px;
 }
 
-.subscription-button{
+.button{
     margin-top: 10px;
     background-color: #EF4234;
     color: white;
@@ -12,4 +14,9 @@
     height: 30px;
     border: none;
     border-radius: 100px;
+}
+
+.subscription-button{
+    display: flex;
+    justify-content: center;
 }

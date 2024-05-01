@@ -1,25 +1,30 @@
 import React from 'react'
 import './fee-styles.css'
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import {faBell} from '@fortawesome/free-solid-svg-icons'
 
 function Fee() {
-  return (
-    <>
-        <div className="fee-wrap">
-            <div className="fee-icons">
-                <div className="fee-icon">
-                    <h1>1</h1>
+    return (
+        <>
+            <div className="fee-wrap">
+                <div className="fee-icons">
+                    <div className="fee-icon">
+                        <img className="icon" src="/images/ad.svg" alt="" />
+                    </div>
+                    <div className="fee-icon">
+                        <img className="icon" src="/images/video.svg" alt="" />
+                    </div>
+                    <div className="fee-icon">
+                        <img className="icon" src="/images/conection.svg" alt="" />
+                    </div>
                 </div>
-                <div className="fee-icon">
-                    <h1>1</h1>
+                <div className="fee-button">
+                    <button className="button">Ver Planes</button>
                 </div>
-                <div className="fee-icon">
-                    <h1>1</h1>
-                </div>
+
             </div>
-            <button className="fee-button">Ver Planes</button>
-        </div>
-    </>
-  )
+        </>
+    )
 }
 
 export default Fee

@@ -22,7 +22,7 @@ function Interestelar() {
                         <p>Aventura</p>
                         <p>+16</p>
                     </div>
-                    <button className='interestelar-botton'>Ver Ahora</button>
+                    <button className='interestelar-button'>Ver Ahora</button>
                 </div>
             </div>
         </div>

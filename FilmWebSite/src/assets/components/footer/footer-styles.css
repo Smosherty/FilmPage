@@ -1,0 +1,42 @@
+.footer-wrap{
+    color: white;
+    background-color: #1A1A1A;
+    margin-bottom: -30px;
+}
+
+.footer-name{
+    display: flex;
+    gap: -5px;
+    margin-bottom: 30px;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+
+.footer-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button{
+    margin-top: 10px;
+    background-color: #EF4234;
+    color: white;
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 100px; 
+}
+
+.line-div{
+    display: flex;
+    justify-content: center;
+}
+
+.line{
+    background-color: white;
+    height: 2px;
+    width: 85vw;
+}

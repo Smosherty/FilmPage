@@ -5,14 +5,34 @@
     justify-content: center;
     gap: 20px;
     color: white;
+    overflow: hidden;
+    width: 100%;
 }
 
 .carrusel-images{
     display: flex;
     align-items: center;
     flex-direction: column;
+    transition: transform 0.5s ease-in-out;
 }
 
 .carrusel-images h5{
     margin-bottom: -10px;
+}
+
+.carrusel-icon {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.button{
+    margin-top: 10px;
+    background-color: #EF4234;
+    color: white;
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 100px;
 }

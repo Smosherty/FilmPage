@@ -2,3 +2,35 @@
     padding: 50px;
     color: white;
 }
+
+.fee-icons{
+    display: flex;
+    justify-content: space-between;
+}
+
+.fee-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon{
+    height: 50px;
+    width: 50px;
+}
+
+.button{
+    margin-top: 20px;
+    background-color: #EF4234;
+    color: white;
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 100px;   
+}
+
+.fee-button{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}

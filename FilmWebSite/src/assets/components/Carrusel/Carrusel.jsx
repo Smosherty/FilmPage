@@ -18,7 +18,7 @@ function Carrusel() {
             ))
           }
           <div className="carrusel-icon">
-            <h1>1</h1>
+            <button className="button"></button>
           </div>
         </div>
     </>

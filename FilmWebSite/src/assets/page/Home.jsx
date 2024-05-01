@@ -8,6 +8,7 @@ import Categories from '../components/categories/Categories'
 import Interestelar from '../components/interestelar/Interestelar'
 import Subs from '../components/subs/Subs'
 import Fee from '../components/fee/Fee'
+import Footer from '../components/footer/Footer'
 
 function Home() {
   return (
@@ -21,6 +22,7 @@ function Home() {
       <Interestelar/>
       <Subs/>
       <Fee/>
+      <Footer/>
     </>
   )
 }

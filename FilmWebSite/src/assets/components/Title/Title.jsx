@@ -5,7 +5,7 @@ function Title() {
   return (
     <>
         <div className="title">
-            <h3>Películas y series sin límites y mucho más</h3>
+            <h3>Películas, series sin límites y mucho más</h3>
             <h4>Disfrútalas como quieras</h4>
         </div>
     </>
