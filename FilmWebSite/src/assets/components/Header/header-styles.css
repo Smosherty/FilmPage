@@ -27,15 +27,15 @@
 
 /* Smartphones (portrait) ----------- */
 @media only screen
-and (max-width : 450px) {
+and (max-width : 550px) {
     .nav{
-        display: none;
+        visibility: hidden;
     }
 }
 
 /* iPads (portrait) ----------- */
 @media only screen
-and (min-width : 450px)
+and (min-width : 550px)
 and (max-width : 1024px){
     .header-menu {
         list-style-type: none;
@@ -53,7 +53,18 @@ and (max-width : 1024px){
 
 /* Desktops and laptops ----------- */
 @media only screen
-and (min-width : 1224px) {
-/* Styles */
+and (min-width : 1024px) {
+    .header-menu {
+        list-style-type: none;
+        display: flex;
+        gap: 30px;
+        margin-right: 20px;
+        
+      }
+      
+      .header-menu li a {
+        text-decoration: none;
+        color: #fff; 
+      }
 }
 

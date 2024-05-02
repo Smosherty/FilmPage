@@ -11,6 +11,20 @@
 }
 
 .categories-icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     background-color: #1A1A1A;
-    width: 110px;
+    width: 210px;
+}
+
+.categories-icon-one{
+    display: flex;
+    justify-content: center;
+    margin-right: 15px;
+}
+
+.categories-text p{
+    margin-top: -5px;
+    color: #EF4234;
 }

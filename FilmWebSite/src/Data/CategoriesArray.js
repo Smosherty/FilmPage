@@ -2,18 +2,18 @@
 
 let CarruselArray = [
     {
-        icon:"<CiUser/>",
+        icon:"drama",
         category:"Drama",
         amount:"120k+"
     },
     {
-        icon:"icono",
-        category:"Aventura",
+        icon:"horror",
+        category:"Terror",
         amount:"500k+"
     },
     {
-        icon:"icono",
-        category:"Fantasia",
+        icon:"mystery",
+        category:"Misterio",
         amount:"30k+"
     }
 ]

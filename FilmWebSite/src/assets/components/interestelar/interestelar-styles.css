@@ -1,32 +1,31 @@
-.interestelar-wrap{
-    padding: 50px;
-    color: white;
-    margin-bottom: 50px;
-    margin-left: -20px;
-}
-
-.interestelar-background{
-    background-color: #1A1A1A;
-    height: 40vh;
-    z-index: 2;
-    position: absolute;
-    width: 75vw;
-    margin-top: -30px;
-    margin-left: 50px;
-}
-
-.interestelar-content{
+.interestelar-wrap {
+    padding: 50px 0px 50px 0px;
     display: flex;
-    gap: 40px;
-    position: relative;
-    z-index: 3;
+    margin: auto;
+    justify-content: center;
 }
 
-.interestelar-category{
+.interestelar-background {
+    background-color: #1A1A1A;
+    border-radius: 10px;
+    height: 40vh;
+    width: 80%;
+    display: flex;
+    position: relative;
+}
+
+.interestelar-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* justify-content: center; */
+}
+
+.interestelar-category {
     color: #EF4234;
 }
 
-.interestelar-button{
+.interestelar-button {
     margin-top: 10px;
     background-color: #EF4234;
     color: white;
@@ -36,9 +35,50 @@
     border-radius: 100px;
 }
 
-.interestelas-img{
-    height: 33vh;
-    width: 45vw;
-    object-fit: cover;
+.interestelas-img {
+    height: 75%;
+    object-fit: contain;
+    max-width: 300px;
+    min-width: 200px;
+    /* max-height: fit-content; */
     border-radius: 5%;
+}
+
+/* .interestelar-text {
+} */
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 400px) {}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-width : 450px) and (max-width : 1024px) {
+    .interestelas-img {
+        height: 33vh;
+        width: 45vw;
+        top: 5%;
+        left: -8%;
+        object-fit: contain;
+        position: absolute;
+        max-width: 300px;
+        min-width: 200px;
+        /* max-height: fit-content; */
+        border-radius: 5%;
+    }
+
+    .interestelar-content {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        /* justify-content: center; */
+    }
+
+    .interestelar-text {
+        align-self: end;
+        /* margin-left: 400%; */
+    }
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width : 1224px) {
+    /* Styles */
 }

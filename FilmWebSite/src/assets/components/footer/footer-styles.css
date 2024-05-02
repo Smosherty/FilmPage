@@ -1,4 +1,5 @@
 .footer-wrap{
+    display: flex;
     color: white;
     background-color: #1A1A1A;
     margin-bottom: -30px;
@@ -6,12 +7,11 @@
 
 .footer-name{
     display: flex;
-    gap: -5px;
-    margin-bottom: 30px;
     align-items: center;
     flex-direction: column;
-    flex-wrap: wrap;
-
+    width: 60vw;
+    gap: -5px;
+    margin-bottom: 30px;
 }
 
 .footer-button{
@@ -39,4 +39,37 @@
     background-color: white;
     height: 2px;
     width: 85vw;
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen
+and (max-width : 600px) {
+    
+    .footer-wrap{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    
+
+}
+
+/* iPads (portrait) ----------- */
+@media only screen
+and (min-width : 600px)
+and (max-width : 1024px){
+
+    .line{
+        visibility: hidden;
+    }
+
+
+}
+
+/* Desktops and laptops ----------- */
+@media only screen
+and (min-width : 1224px) {
+/* Styles */
 }

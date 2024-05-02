@@ -18,7 +18,7 @@ function Categories() {
                         CategoriesArray.map((icon, index) => (
                             <div className="categories-icons" key={index}>
                                 <div className="categories-icon-one">
-                                    <div>{icon.icon}</div>
+                                <img src={`/images/${icon.icon}.svg`} alt="array image" />
                                 </div>
                                 <div className="categories-text">
                                     <h5>{icon.category}</h5>
