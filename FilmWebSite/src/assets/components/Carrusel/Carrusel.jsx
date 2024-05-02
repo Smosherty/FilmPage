@@ -17,9 +17,6 @@ function Carrusel() {
               </div>
             ))
           }
-          {/* <div className="carrusel-icon">
-            <button className="button"></button>
-          </div> */}
         </div>
     </>
   )

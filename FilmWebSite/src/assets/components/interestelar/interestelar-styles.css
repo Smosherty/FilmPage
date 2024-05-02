@@ -11,14 +11,14 @@
     height: 40vh;
     width: 80%;
     display: flex;
-    position: relative;
+    align-items: center;
+    justify-content: center;
 }
 
 .interestelar-content {
+    color: white;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    /* justify-content: center; */
+    gap: 20px;
 }
 
 .interestelar-category {
@@ -36,11 +36,10 @@
 }
 
 .interestelas-img {
-    height: 75%;
-    object-fit: contain;
+    height: 300px;
+    object-fit: cover;
     max-width: 300px;
     min-width: 200px;
-    /* max-height: fit-content; */
     border-radius: 5%;
 }
 
@@ -58,7 +57,6 @@
         top: 5%;
         left: -8%;
         object-fit: contain;
-        position: absolute;
         max-width: 300px;
         min-width: 200px;
         /* max-height: fit-content; */
@@ -67,13 +65,16 @@
 
     .interestelar-content {
         display: flex;
-        align-items: center;
-        justify-content: end;
+        align-items: end;
+        justify-content: start;
         /* justify-content: center; */
     }
 
     .interestelar-text {
-        align-self: end;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        /* align-self: end; */
         /* margin-left: 400%; */
     }
 }

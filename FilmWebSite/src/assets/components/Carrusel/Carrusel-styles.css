@@ -1,3 +1,7 @@
+.carrusel-wrap::-webkit-scrollbar {
+    display: none;
+}
+
 .carrusel-wrap{
     margin-top: 50px;
     display: flex;
@@ -8,6 +12,7 @@
     overflow: auto;
     width: 100%;
     margin-left: 20px;
+    scrollbar-width: none; 
 }
 
 .carrusel-images{
@@ -36,4 +41,11 @@
     height: 30px;
     border: none;
     border-radius: 100px;
+}
+
+.carrusel-image-images img{
+    height: 304px;
+    width: 224px;
+    object-fit: contain;
+    border-radius: 50px;
 }
