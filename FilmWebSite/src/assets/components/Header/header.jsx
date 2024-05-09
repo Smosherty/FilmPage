@@ -9,10 +9,10 @@ function Header() {
       <div className="header-wrap">
         <div className="header">
           <div className="logo-header">
-            <img src="/images/LogoPage.png" alt="hh" />
+            <a href="/Home"><img src="/images/LogoPage.png" alt="hh" /></a>
           </div>
           <ul className="header-menu">
-            <li><a href="#">Películas</a></li>
+            <li><a href="/InterestelarPage">Película Destacada</a></li>
             <li><a href="#">Series</a></li>
             <li><a href="#">Animación</a></li>
             <li><a href="#">Documentales</a></li>
