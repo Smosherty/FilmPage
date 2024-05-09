@@ -1,5 +1,4 @@
 import React from 'react'
-import { CiUser } from "react-icons/ci"
 import './categories-styles.css'
 import CategoriesArray from '../../../Data/CategoriesArray'
 

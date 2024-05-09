@@ -16,7 +16,6 @@ function Subs() {
         <div className="subscription-button">
           <button className="button">Prueba Gratis</button>
         </div>
-
       </div>
     </>
   )

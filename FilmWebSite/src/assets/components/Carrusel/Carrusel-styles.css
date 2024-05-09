@@ -1,6 +1,6 @@
-.carrusel-wrap::-webkit-scrollbar {
+/* .carrusel-wrap::-webkit-scrollbar {
     display: none;
-}
+} */
 
 .carrusel-wrap{
     margin-top: 50px;
@@ -9,18 +9,16 @@
     justify-content: start;
     gap: 20px;
     color: white;
-    overflow: auto;
-    width: 100%;
+    overflow: scroll;
+    width: 94%;
     margin-left: 20px;
-    scrollbar-width: none; 
+    overflow-y: hidden;
 }
 
 .carrusel-images{
     display: flex;
     align-items: center;
-    flex-direction: column;
-    transition: transform 0.5s ease-in-out;
-}
+    flex-direction: column;}
 
 .carrusel-images h5{
     margin-bottom: -10px;
@@ -30,7 +28,6 @@
     position: absolute;
     bottom: 10px;
     left: 50%;
-    transform: translateX(-50%);
 }
 
 .button{
@@ -48,4 +45,28 @@
     width: 224px;
     object-fit: contain;
     border-radius: 50px;
+}
+
+
+/* Smartphones (portrait) ----------- */
+@media only screen
+and (max-width : 600px) {
+    
+    
+
+}
+
+/* iPads (portrait) ----------- */
+@media only screen
+and (min-width : 600px)
+and (max-width : 1024px){
+
+
+
+}
+
+/* Desktops and laptops ----------- */
+@media only screen
+and (min-width : 1224px) {
+/* Styles */
 }

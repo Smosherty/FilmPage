@@ -1,9 +1,16 @@
 .subscription-wrap{
     display: flex;
+    justify-content: center;
+    flex-direction: column;
     padding: 50px;
     color: white;
     background-color: #1A1A1A;
     gap: 10px;
+}
+
+.subscription-title{
+    display: flex;
+    justify-content: center;
 }
 
 .button{
@@ -19,4 +26,28 @@
 .subscription-button{
     display: flex;
     justify-content: center;
+    align-items: center;
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen
+and (max-width : 600px) {
+    
+    
+
+}
+
+/* iPads (portrait) ----------- */
+@media only screen
+and (min-width : 600px)
+and (max-width : 1024px){
+
+
+
+}
+
+/* Desktops and laptops ----------- */
+@media only screen
+and (min-width : 1224px) {
+/* Styles */
 }
