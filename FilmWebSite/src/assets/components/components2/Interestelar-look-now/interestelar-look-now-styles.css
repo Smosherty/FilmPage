@@ -1,0 +1,29 @@
+.interestelar-look-wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    position: absolute;
+    color: white;
+    top: 15%;
+    left: 30%;
+    width: 50%;
+}
+
+.interestelar-look-img{
+    margin-right: 20px;
+}
+
+.interestelar-look-info-all{
+    background-color: rgba(0, 0, 0, 0.103);
+}
+
+.interestelar-look-button {
+    margin-top: 10px;
+    background-color: #EF4234;
+    color: white;
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 100px;
+}
