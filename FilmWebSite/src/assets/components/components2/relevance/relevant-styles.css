@@ -1,0 +1,63 @@
+.relevant-wrap{
+    color: white;
+}
+
+.relevant-images{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.relevant-title{
+    display: flex;
+    justify-content: center;
+}
+
+.relevant-img{
+    width: 320px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.relevant-img img{
+    object-fit: cover;
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen
+and (max-width : 450px) {
+    
+    .relevant-wrap{
+        padding-top: 80px;
+    }
+    
+}
+
+@media only screen
+and (min-width : 451px)
+and (max-width : 650px) {
+
+    .relevant-wrap{
+        padding-top: 80px;
+    }
+    
+}
+
+/* iPads (portrait) ----------- */
+@media only screen
+and (min-width : 651px)
+and (max-width : 1224px){
+
+
+    
+}
+
+/* Desktops and laptops ----------- */
+@media only screen
+and (min-width : 1224px) {  
+
+
+
+}

@@ -4,18 +4,36 @@
     align-items: center;
     z-index: 1;
     position: absolute;
+    flex-wrap: wrap;
     color: white;
-    top: 15%;
-    left: 30%;
-    width: 50%;
+    top: 20%;
+    left: 25%;
+}
+
+.interestelar-look-title{
+    margin-bottom: 20px;
 }
 
 .interestelar-look-img{
     margin-right: 20px;
+    img{
+        transition: .7s ease-in-out;
+    }
 }
 
 .interestelar-look-info-all{
     background-color: rgba(0, 0, 0, 0.103);
+    padding: 15px;
+    margin-top: -50px;
+    width: 500px;
+}
+
+.interestelar-look-tags{
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    margin-bottom: 20px;
+    gap: 15px;
 }
 
 .interestelar-look-button {
@@ -26,4 +44,133 @@
     height: 30px;
     border: none;
     border-radius: 100px;
+}
+
+
+@media only screen
+and (max-width : 450px){
+
+    .interestelar-look-wrap{
+        width: 50%;
+        top: 7%;
+        left: 25%;
+    } 
+
+    .interestelar-look-info-all{
+        background: none;
+        padding-top: 40px;
+    }
+
+    .interestelar-look-img img{
+        margin-bottom: -60px;
+    }
+
+    .interestelar-look-img img{
+        transform: scale(0.7);
+    }
+
+    .interestelar-look-tags{
+        display: none;
+    }
+
+    .interestelar-look-title{
+        display: flex;
+        justify-content: center;
+        margin-bottom: -10px;
+    }
+
+    .look-button{
+        display: flex;
+        justify-content: center;
+    }
+
+    .interestelar-look-text{
+        display: none;
+    }
+
+    
+
+}
+/* Smartphones (portrait) ----------- */
+@media only screen
+and (min-width : 451px)
+and (max-width : 650px) {
+
+    .interestelar-look-wrap{
+        width: 50%;
+        top: 7%;
+        left: 25%;
+    } 
+
+    .interestelar-look-info-all{
+        background: none;
+        padding-top: 40px;
+    }
+
+    .interestelar-look-img{
+        margin-bottom: -60px;
+    }
+
+    .interestelar-look-img img{
+        transform: scale(0.7);
+    }
+
+    .interestelar-look-tags{
+        margin-bottom: 0px;
+    }
+
+    .interestelar-look-title{
+        display: flex;
+        justify-content: center;
+        margin-bottom: -10px;
+    }
+
+    .look-button{
+        display: flex;
+        justify-content: center;
+    }
+
+    .interestelar-look-text{
+        display: none;
+    }
+    
+}
+
+/* iPads (portrait) ----------- */
+@media only screen
+and (min-width : 651px)
+and (max-width : 1224px){
+
+    .interestelar-look-wrap{
+        top: 10%;
+        left: 15%;
+    }
+
+    .interestelar-look-img{
+        margin-right: 0px;
+    }
+
+    .interestelar-look-img img{
+        transform: scale(0.8);
+    }
+
+    .interestelar-look-info-all{
+        width: 30vw;
+    }
+
+    .interestelar-look-tags{
+        display: none;
+    }
+
+}
+
+/* Desktops and laptops ----------- */
+@media only screen
+and (min-width : 1224px) {  
+
+    .interestelar-look-wrap{
+        top: 15%;
+        left: 15%;
+    }
+
 }

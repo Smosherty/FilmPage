@@ -13,14 +13,14 @@ function InterestelarLookNow() {
                     <div className="interestelar-look-title">
                         <h2>Interestelar</h2>
                     </div>
-                    <div className="interestelar-look-info">
-                        <p></p>
-                        <p></p>
-                        <p></p>
-                        <p></p>
-                        <p></p>
-                        <p></p>
-                        <p></p>
+                    <div className="interestelar-look-tags">
+                        <p>2014</p>
+                        <p>164min</p>
+                        <p>18+</p>
+                        <p>EEUU</p>
+                        <p>Drama</p>
+                        <p>Fantasía</p>
+                        <p>Aventuras</p>
                     </div>
                     <div className="interestelar-look-text">
                         <p>Cuando la sequía, las tormentas de polvo y la extinción de plantas llevan a la humanidad a una crisis alimentaria, un equipo de exploradores y científicos es enviado a través de un agujero de gusano...</p>
