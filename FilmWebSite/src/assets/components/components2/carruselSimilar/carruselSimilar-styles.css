@@ -1,0 +1,38 @@
+.similar-wrap{
+    margin-top: 50px;
+    color: white;
+    width: 94%;
+    margin-left: 20px;
+    
+}
+
+.similar-boxes{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    gap: 20px;
+    overflow: scroll;
+    overflow-y: hidden;
+}
+
+.similar-title{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.similar-images{
+    display: flex;
+    align-items: center;
+    flex-direction: column;}
+
+.similar-images h5{
+    margin-bottom: -10px;
+}
+
+.similar-image img{
+    height: 304px;
+    width: 224px;
+    object-fit: contain;
+    border-radius: 50px;
+}

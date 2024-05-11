@@ -1,7 +1,3 @@
-/* .carrusel-wrap::-webkit-scrollbar {
-    display: none;
-} */
-
 .carrusel-wrap{
     margin-top: 50px;
     display: flex;
@@ -22,22 +18,6 @@
 
 .carrusel-images h5{
     margin-bottom: -10px;
-}
-
-.carrusel-icon {
-    position: absolute;
-    bottom: 10px;
-    left: 50%;
-}
-
-.button{
-    margin-top: 10px;
-    background-color: #EF4234;
-    color: white;
-    width: 100px;
-    height: 30px;
-    border: none;
-    border-radius: 100px;
 }
 
 .carrusel-image-images img{
