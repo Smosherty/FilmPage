@@ -3,6 +3,8 @@
     color: white;
     background-color: #1A1A1A;
     margin-bottom: -30px;
+    margin-top: 30px;
+    padding: 10px;
 }
 
 .footer-icons{
@@ -18,6 +20,30 @@
     width: 60vw;
     gap: -5px;
     margin-bottom: 30px;
+}
+
+.footer-name-plus{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 60vw;
+    gap: -5px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+
+.footer-icons{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.footer-icon{
+
+    font-size: xx-large;
+    object-fit: cover;
 }
 
 .footer-button{

@@ -1,7 +1,7 @@
 import React from 'react'
 import './footer-styles.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBell, faArrowUp, faBridgeWater } from '@fortawesome/free-solid-svg-icons'
+import { faPhone, faPaperPlane, faEnvelope, faRss } from '@fortawesome/free-solid-svg-icons'
 
 function Footer() {
     return (
@@ -20,20 +20,26 @@ function Footer() {
                     <h3>Distribuidor</h3>
                     <h3>Contactos</h3>
                 </div>
-                <div className="footer-name">
+                <div className="footer-name-plus">
                     <div className="footer-button">
+                        <div className="name-title">
+                            <h2>Ayuda </h2>
+                        </div>
                         <div className="footer-icon-text">
                             <h4>Siempre estamos listos para ayudarte.Nuestros operadores están en línea 24 horas al día, 7 días a la semana</h4>
                         </div>
                         <div className="footer-icons">
                             <div className="footer-icon">
-                                <FontAwesomeIcon icon={faBell} />
+                                <FontAwesomeIcon icon={faPhone} />
                             </div>
                             <div className="footer-icon">
-                                <FontAwesomeIcon icon={faArrowUp} />
+                                <FontAwesomeIcon icon={faPaperPlane} />
                             </div>
                             <div className="footer-icon">
-                                <FontAwesomeIcon icon={faBridgeWater} />
+                                <FontAwesomeIcon icon={faEnvelope} />
+                            </div>
+                            <div className="footer-icon">
+                                <FontAwesomeIcon icon={faRss} />
                             </div>
                         </div>
                         <button className="button">chat</button>
