@@ -1,0 +1,86 @@
+.header-lateral-wrap{
+    background-color: blue;
+    width: 60vw;
+    height: 101vh;
+    position: absolute;
+    z-index: 4;
+    top: 0;
+    color: white;
+}
+
+.header-options {
+    margin-top: 50px;
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+    width: 60vw;
+    flex-direction: column;
+    justify-content: center;
+    font-size: medium;
+  }
+
+  .header-options li a {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #fff; 
+  }
+
+  .header-options li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 150px;
+    background-color: black;
+    transition: background-color 0.4s ease
+  }
+
+  .li-categories-categorie{
+    background-color: aqua;
+  }
+
+  .li-categories{
+    width: 165px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .categorie-with.icon{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    font-size: medium;
+    gap: 10px;
+    width: 165px;
+    background-color: blueviolet;
+  }
+
+  .header-options li:hover{
+    background-color: white;
+  }
+
+
+/* Smartphones (portrait) ----------- */
+@media only screen
+and (max-width : 650px) {
+    
+
+
+}
+
+/* iPads (portrait) ----------- */
+@media only screen
+and (min-width : 650px)
+and (max-width : 1024px){
+    
+
+}
+
+/* Desktops and laptops ----------- */
+@media only screen
+and (min-width : 1024px) {
+    
+}

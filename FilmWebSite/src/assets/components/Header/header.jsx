@@ -1,6 +1,7 @@
 import React from 'react'
 import './header-styles.css'
-import { CiUser } from "react-icons/ci"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBars ,faUser } from '@fortawesome/free-solid-svg-icons'
 
 
 function Header() {
@@ -9,16 +10,17 @@ function Header() {
       <div className="header-wrap">
         <div className="header">
           <div className="logo-header">
-            <a href="/Home"><img src="/images/LogoPage.png" alt="hh" /></a>
+            <div className="logo-bars"><FontAwesomeIcon icon={faBars}/></div>
           </div>
           <ul className="header-menu">
+            <li><a href="/Home">Home</a></li>
             <li><a href="/InterestelarPage">Película Destacada</a></li>
             <li><a href="#">Series</a></li>
             <li><a href="#">Animación</a></li>
             <li><a href="#">Documentales</a></li>
           </ul>
           <div className="navivar">
-            <CiUser className="icon-user" />
+            <a href="/Acount"><FontAwesomeIcon icon={faUser}/></a>
           </div>
         </div>
       </div>
