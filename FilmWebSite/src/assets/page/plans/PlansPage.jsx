@@ -1,9 +1,8 @@
 import React from 'react'
-import Footer from '../../components/footer/Footer'
 import Header from '../../components/Header/header'
+import Footer from '../../components/footer/Footer'
 
-
-function Acount() {
+function PlansPage() {
   return (
     <>
       <Header/>
@@ -12,4 +11,4 @@ function Acount() {
   )
 }
 
-export default Acount
+export default PlansPage

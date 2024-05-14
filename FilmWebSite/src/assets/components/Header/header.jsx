@@ -20,7 +20,7 @@ function Header() {
             <li><a href="#">Documentales</a></li>
           </ul>
           <div className="navivar">
-            <a href="/Acount"><FontAwesomeIcon icon={faUser}/></a>
+            <a href="/Account"><FontAwesomeIcon icon={faUser}/></a>
           </div>
         </div>
       </div>

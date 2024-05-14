@@ -1,21 +1,22 @@
 import React from 'react'
 import './header-lateral-styles.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faArrowDown } from '@fortawesome/free-solid-svg-icons'
+import { faArrowDown, faBars } from '@fortawesome/free-solid-svg-icons'
 
 function HeaderLateral() {
   return (
     <>
       <div className="header-lateral-wrap">
         <div className="header-lateral-options">
+          <div className="logo-lateral-bars"><FontAwesomeIcon icon={faBars} /></div>
           <ul className="header-options">
             <li><a href="/InterestelarPage">Película Destacada</a></li>
             <li><a href="#">Series</a></li>
             <li><a href="#">Animación</a></li>
             <li><a href="#">Documentales</a></li>
             <div className="li-categories">
-              <div className="categorie-with icon">
-                <li className="li-categories-categorie">Categorias</li>
+              <div className="categorie-with-icon">
+                <a href="#">Categorias</a>
                 <FontAwesomeIcon icon={faArrowDown}></FontAwesomeIcon>
               </div>
               <div className="dropdown">

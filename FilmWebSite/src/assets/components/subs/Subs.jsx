@@ -14,7 +14,7 @@ function Subs() {
 
         </div>
         <div className="subscription-button">
-          <button className="button">Prueba Gratis</button>
+          <button className="button"><a href="/PlansPage">Prueba Gratis</a></button>
         </div>
       </div>
     </>

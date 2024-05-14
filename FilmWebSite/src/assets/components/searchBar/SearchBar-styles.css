@@ -1,36 +1,25 @@
-.search-bar-wrap{
+.search-bar-wrap {
     padding: 50px;
     color: white;
 }
 
-.search-input{
-    background-color: #1A1A1A; 
-      color: white;
-      border: 1px solid #ccc; 
-      padding: 8px; 
-      border-radius: 4px; 
-      width: 80vw;
-      margin-top: 35px;
+.search-input {
+    background-color: #1A1A1A;
+    color: white;
+    border: 1px solid #ccc;
+    padding: 8px;
+    border-radius: 4px;
+    width: 80vw;
+    margin-top: 35px;
 }
 
 /* Smartphones (portrait) ----------- */
-@media only screen
-and (max-width : 600px) {
-
-    
-
-}
+@media only screen and (max-width : 600px) {}
 
 /* iPads (portrait) ----------- */
-@media only screen
-and (min-width : 600px)
-and (max-width : 1024px){
-
-
-}
+@media only screen and (min-width : 600px) and (max-width : 1024px) {}
 
 /* Desktops and laptops ----------- */
-@media only screen
-and (min-width : 1224px) {
-/* Styles */
+@media only screen and (min-width : 1224px) {
+    /* Styles */
 }
