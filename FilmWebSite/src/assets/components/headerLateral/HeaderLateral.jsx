@@ -10,13 +10,13 @@ function HeaderLateral() {
         <div className="header-lateral-options">
           <div className="logo-lateral-bars"><FontAwesomeIcon icon={faBars} /></div>
           <ul className="header-options">
-            <li><a href="/InterestelarPage">Película Destacada</a></li>
-            <li><a href="#">Series</a></li>
-            <li><a href="#">Animación</a></li>
-            <li><a href="#">Documentales</a></li>
+            <li><a className='Lateral' href="/InterestelarPage">Película Destacada</a></li>
+            <li><a className='Lateral' href="#">Series</a></li>
+            <li><a className='Lateral' href="#">Animación</a></li>
+            <li><a className='Lateral' href="#">Documentales</a></li>
             <div className="li-categories">
               <div className="categorie-with-icon">
-                <a href="#">Categorias</a>
+                <a className='Lateral' href="#">Categorias</a>
                 <FontAwesomeIcon icon={faArrowDown}></FontAwesomeIcon>
               </div>
               <div className="dropdown">

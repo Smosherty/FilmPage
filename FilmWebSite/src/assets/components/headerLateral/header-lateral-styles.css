@@ -2,7 +2,7 @@
   background-color: #1A1A1A;
   width: 60vw;
   height: 101vh;
-  position: absolute;
+  position: fixed;
   z-index: 4;
   top: 0;
   color: white;
@@ -35,20 +35,22 @@
   list-style-type: none;
   display: flex;
   gap: 30px;
-  width: 60vw;
+  width: 100%;
+  padding: 0;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   font-size: large;
 }
 
-.header-options li a {
+.Lateral{
   display: flex;
   justify-content: center;
-  margin-bottom: 10px;
+  padding: 5px;
   text-decoration: none;
   color: #fff;
   width: 100%;
+  font-size: large;
 }
 
 .header-options li {
@@ -73,10 +75,10 @@
 .categorie-with-icon {
   display: flex;
   align-items: center;
-  justify-content: center;
+  padding-right: 20px;
   flex-direction: row;
+  box-sizing: border-box;
   border-radius: 30px;
-  gap: 10px;
   height: auto;
   width: 165px;
   background-color: rgb(0, 0, 0);
@@ -85,12 +87,6 @@
 
 .categorie-with-icon:hover{
   background-color: #fff;
-}
-
-.categorie-with-icon a{
-  color: #fff;
-  text-decoration: none;
-  font-size: x-large;
 }
 
 .header-options li:hover {

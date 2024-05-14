@@ -1,19 +1,19 @@
-.header-img-wrap{
-    background-image: url("./images/Header_img.png");
+.header-img-wrap {
+    background-image: url("/images/Header_img.png");
     background-size: cover;
     background-position: center;
 }
 
-.header-img{
+.header-img {
     display: flex;
     align-items: start;
     flex-direction: column;
     color: white;
     margin-left: 15px;
     margin-bottom: 10px;
-} 
+}
 
-.film-more{
+.film-more {
     margin-top: 10px;
     background-color: #EF4234;
     color: white;
@@ -23,7 +23,7 @@
     border-radius: 100px;
 }
 
-.film-header-info{
+.film-header-info {
     margin-top: 150px;
     width: 350px;
 }
@@ -31,33 +31,29 @@
 
 
 /* Smartphones (portrait) ----------- */
-@media only screen
-and (max-width : 400px) {
-    .header-img-wrap{
+@media only screen and (max-width : 400px) {
+    .header-img-wrap {
         height: 400px;
-    } 
-    
+    }
+
 }
 
 /* iPads (portrait) ----------- */
-@media only screen
-and (min-width : 400px)
-and (max-width : 1224px){
+@media only screen and (min-width : 400px) and (max-width : 1224px) {
 
-    .header-img-wrap{
+    .header-img-wrap {
         height: 500px;
-    } 
+    }
 }
 
 /* Desktops and laptops ----------- */
-@media only screen
-and (min-width : 1224px) {  
+@media only screen and (min-width : 1224px) {
 
-    .header-img-wrap{
+    .header-img-wrap {
         height: 500px;
-    } 
+    }
 
-    .film-header-info{
+    .film-header-info {
         margin-top: 170px;
         margin-left: 20px;
         width: 450px;

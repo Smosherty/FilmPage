@@ -3,7 +3,7 @@ import Home from './assets/page/Home'
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import InterestelarPage from './assets/page/interestelar-page/Interestelar-page'
 import Account from './assets/page/Acounts/Account'
-import PlansPage from './assets/page/plans/PlansPage'
+import PlansPage from './assets/page/plansPage/PlansPage'
 
 
 function App() {
