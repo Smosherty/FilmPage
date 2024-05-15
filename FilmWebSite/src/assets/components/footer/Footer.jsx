@@ -39,7 +39,7 @@ function Footer() {
                                 <FontAwesomeIcon icon={faEnvelope} />
                             </div>
                             <div className="footer-icon">
-                                <FontAwesomeIcon icon={faRss} />
+                                <a href="../../../../public/Peliculas.xml"><FontAwesomeIcon icon={faRss} /></a>
                             </div>
                         </div>
                         <button className="button">chat</button>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+
+<channel>
+  <title>FilmWebSite</title>
+  <link>https://github.com/Smosherty/FilmPage</link>
+  <description>This is a movie and series streaming page</description>
+  <item>
+    <title>Interestelar</title>
+    <link>https://filmwebsitedaniel.web.app/InterestelarPage</link>
+    <description>Page where some information is given about the movie Interstellar and where you can see it</description>
+  </item>
+</channel>

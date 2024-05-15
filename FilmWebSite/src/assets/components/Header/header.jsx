@@ -2,15 +2,19 @@ import React from 'react'
 import './header-styles.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars ,faUser } from '@fortawesome/free-solid-svg-icons'
-
+import { useState } from 'react'
+import HeaderLateral from '../headerLateral/HeaderLateral'
 
 function Header() {
+
+  const [openHeader, setOpenHeader] = useState(false)
+
   return (
     <>
       <div className="header-wrap">
         <div className="header">
           <div className="logo-header">
-            <div className="logo-bars"><FontAwesomeIcon icon={faBars}/></div>
+            <div className="logo-bars"><FontAwesomeIcon icon={faBars} onClick={() => setOpenHeader(true)}/></div>
           </div>
           <ul className="header-menu">
             <li><a href="/Home">Home</a></li>
@@ -24,6 +28,7 @@ function Header() {
           </div>
         </div>
       </div>
+      <HeaderLateral showHeader={openHeader}/>
     </>
   )
 }

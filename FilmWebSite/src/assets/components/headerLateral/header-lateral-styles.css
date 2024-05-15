@@ -6,6 +6,10 @@
   z-index: 4;
   top: 0;
   color: white;
+  margin-left: -60vw;
+}
+.active-header{
+  margin-left: 0;
 }
 
 .logo-lateral-bars{
@@ -94,8 +98,22 @@
 }
 
 
+details{
+  summary{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    list-style: none;
+  }
+  /* .opciones{
+    
+  } */
+}
+
+
 /* Smartphones (portrait) ----------- */
-@media only screen and (max-width : 650px) {}
+@media only screen and (max-width : 650px) {
+
+}
 
 /* iPads (portrait) ----------- */
 @media only screen and (min-width : 650px) and (max-width : 1024px) {
