@@ -1,0 +1,33 @@
+.profile-icons-wrap {
+  margin-top: 20px;
+}
+
+.profile-icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.profile-icon-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+  padding: 50px;
+  background-color: #1A1A1A;
+  width: 100px;
+  border-radius: 30px;
+}
+
+.box-icon {
+  color: #EF4234;
+  height: 50px;
+}
+
+.profile-icon-box h3{
+  color: white;
+  font-size: x-large;
+}
+

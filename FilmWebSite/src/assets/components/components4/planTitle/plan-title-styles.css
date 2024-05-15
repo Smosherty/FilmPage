@@ -1,0 +1,30 @@
+.PlanTitle-wrap{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  margin-top: 50px;
+  transition: .5s ease-in-out;
+}
+
+.PlanTitle-wrap h2{
+  margin-bottom: -10px;
+}
+
+@media only screen
+and (max-width : 450px){
+
+    
+
+}
+/* Smartphones (portrait) ----------- */
+@media only screen
+and (min-width : 451px)
+and (max-width : 650px) {
+
+  .PlanTitle-wrap{
+    display: none;
+  }
+    
+}
