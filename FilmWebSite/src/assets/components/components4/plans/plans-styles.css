@@ -1,0 +1,76 @@
+.plans-wrap{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: auto;
+  padding: 30px;
+}
+
+.plan-box{
+  background-color: #1A1A1A;
+  border-radius: 30px;
+  width: 300px;
+  height: 350px;
+  padding: 30px;
+  margin: 20px 20px;
+
+}
+
+.plan-box-premium{
+  background-color: #1d1d1d;
+  border-radius: 30px;
+  width: 300px;
+  height: 350px;
+  padding: 30px;
+  margin: 20px 20px;
+
+}
+
+.plan-info{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+
+.plan-price{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.plan-price h1{
+  color: #EF4234;
+}
+
+.Plan-button{
+  margin-top: 10px;
+  background-color: #EF4234;
+  color: white;
+  width: 100px;
+  height: 30px;
+  border: none;
+  border-radius: 100px;
+}
+
+@media only screen
+and (max-width : 450px){
+
+  .plan-box-premium{
+    background-color: #1A1A1A;
+  }
+
+}
+/* Smartphones (portrait) ----------- */
+@media only screen
+and (min-width : 451px)
+and (max-width : 1142px) {
+
+  .plan-box-premium{
+    background-color: #1A1A1A;
+  }
+    
+}

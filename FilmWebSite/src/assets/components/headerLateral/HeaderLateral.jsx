@@ -3,13 +3,13 @@ import './header-lateral-styles.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowDown, faBars } from '@fortawesome/free-solid-svg-icons'
 
-function HeaderLateral({ showHeader }) {
+function HeaderLateral(props) {
 
-  const [hideMenu, setHideMenu] = useState(showHeader)
+  const [hideMenu, setHideMenu] = useState(props.showHeader)
 
   return (
     <>
-      <div className={` header-lateral-wrap ${hideMenu ? "" : "active-header"}`}>
+      <div className={hideMenu ? 'active-header' : 'header-lateral-wrap'}>
         <div className="header-lateral-options"></div>
         <div className="logo-lateral-bars">
           <FontAwesomeIcon icon={faBars} onClick={() => setHideMenu(false)} />

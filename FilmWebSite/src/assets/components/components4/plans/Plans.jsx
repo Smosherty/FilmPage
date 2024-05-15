@@ -20,7 +20,7 @@ function Plans() {
             <button className="Plan-button">Pruebalo</button>
           </div>
         </div>
-        <div className="plan-box">
+        <div className="plan-box-premium">
           <div className="plan-info">
             <div className="plan-price">
               <h2>Suscripción Premium</h2>
@@ -39,7 +39,7 @@ function Plans() {
           <div className="plan-info">
             <div className="plan-price">
               <h2>Suscripción Gold</h2>
-              <p>Disfruta de nustra página sin ningún tipo de restricción</p>
+              <p>Todo el contenido sin restricción</p>
               <h1>20€/mes</h1>
             </div>
             <div className="plan-details">

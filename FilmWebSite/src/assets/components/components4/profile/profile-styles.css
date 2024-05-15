@@ -1,16 +1,16 @@
-
-.profile-wrap{
+.profile-wrap {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  color: white;
 }
 
-.profile-button{
+.profile-button {
   margin-top: 10px;
-    background-color: #EF4234;
-    color: white;
-    width: 100px;
-    height: 30px;
-    border: none;
-    border-radius: 100px;
+  background-color: #EF4234;
+  color: white;
+  width: 100px;
+  height: 30px;
+  border: none;
+  border-radius: 100px;
 }

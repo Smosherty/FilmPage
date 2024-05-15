@@ -7,14 +7,14 @@ import HeaderLateral from '../headerLateral/HeaderLateral'
 
 function Header() {
 
-  const [openHeader, setOpenHeader] = useState(true)
+  const [openHeader, setOpenHeader] = useState(false)
 
   return (
     <>
       <div className="header-wrap">
         <div className="header">
           <div className="logo-header">
-            <div className="logo-bars"><FontAwesomeIcon icon={faBars} onClick={() => setOpenHeader(false)}/></div>
+            <div className="logo-bars"><FontAwesomeIcon icon={faBars} onClick={() => setOpenHeader(true)}/></div>
           </div>
           <ul className="header-menu">
             <li><a href="/Home">Home</a></li>

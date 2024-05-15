@@ -16,7 +16,6 @@ function Home() {
   return (
     <>
       <Header/>
-      <HeaderLateral/>
       <HeaderImg/>
       <Title/>
       <Carrusel/>

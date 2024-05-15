@@ -5,6 +5,7 @@ import VoidDiv from '../../components/components3/void/VoidDiv'
 import Profile from '../../components/components4/profile/Profile'
 import ProfileIcons from '../../components/components4/profileIcons/ProfileIcons'
 import PlanTitle from '../../components/components4/planTitle/PlanTitle'
+import Plans from '../../components/components4/plans/Plans'
 
 function PlansPage() {
   return (
@@ -14,6 +15,7 @@ function PlansPage() {
       <Profile/>
       <ProfileIcons/>
       <PlanTitle/>
+      <Plans/>
       <Footer/>
     </>
   )
