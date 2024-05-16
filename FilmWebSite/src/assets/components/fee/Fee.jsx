@@ -21,7 +21,6 @@ function Fee() {
                 <div className="fee-button">
                     <button className="button"><a href="/PlansPage">Ver Planes</a></button>
                 </div>
-
             </div>
         </>
     )

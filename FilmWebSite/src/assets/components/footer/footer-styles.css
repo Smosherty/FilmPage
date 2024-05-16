@@ -41,9 +41,12 @@
 }
 
 .footer-icon{
-
     font-size: xx-large;
     object-fit: cover;
+}
+
+.footer-icon a{
+    color: white;
 }
 
 .footer-button{
@@ -72,6 +75,14 @@
     background-color: white;
     height: 2px;
     width: 85vw;
+}
+
+.rigth{
+    display: flex;
+    justify-content: center;
+    color: white;
+    width: 100%;
+    background-color: #1A1A1A;
 }
 
 /* Smartphones (portrait) ----------- */

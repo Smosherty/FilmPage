@@ -47,6 +47,124 @@
 }
 
 
+
+.header-lateral-wrap {
+    background-color: #1A1A1A;
+    width: 60vw;
+    height: 101vh;
+    position: fixed;
+    z-index: 4;
+    top: 0;
+    color: white;
+    margin-left: -60vw;
+  }
+  .active-header{
+    background-color: #1A1A1A;
+    width: 60vw;
+    height: 101vh;
+    position: fixed;
+    z-index: 4;
+    top: 0;
+    color: white;
+    margin-left: 0;
+  }
+  
+  .logo-lateral-bars{
+    display: flex;
+    justify-content: center; 
+    flex-direction: row-reverse; 
+    margin-top: 30px;
+    font-size: xx-large;
+    color: #EF4234;
+    transition: 0.4s ease;
+    height: 50vh;
+  }
+  
+  .logo-lateral-bars:hover{
+    color: #5e4040;
+    transition: 0.4s ease;
+  }
+  
+  .header-lateral-options{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .header-options {
+    margin-top: 50px;
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+    width: 100%;
+    padding: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+  }
+  
+  .Lateral{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    text-decoration: none;
+    color: #fff;
+    width: 100%;
+    font-size: large;
+  }
+  
+  .header-options li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    border-radius: 30px;
+    width: 165px;
+    background-color: black;
+    transition: background-color 0.4s ease
+  }
+  
+  
+  .li-categories {
+    width: 165px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .categorie-with-icon {
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+    flex-direction: row;
+    box-sizing: border-box;
+    border-radius: 30px;
+    height: auto;
+    width: 165px;
+    background-color: rgb(0, 0, 0);
+    transition: background-color 0.4s ease
+  }
+  
+  .categorie-with-icon:hover{
+    background-color: #fff;
+  }
+  
+  .header-options li:hover {
+    background-color: white;
+  }
+  
+  
+  details{
+    summary{
+      background-color: black;
+      color: rgb(255, 255, 255);
+      list-style: none;
+    }
+  }
+
+
 /* Smartphones (portrait) ----------- */
 @media only screen and (max-width : 650px) {
     .header-menu {

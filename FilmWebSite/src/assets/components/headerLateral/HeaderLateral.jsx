@@ -10,11 +10,12 @@ function HeaderLateral(props) {
   return (
     <>
       <div className={hideMenu ? 'active-header' : 'header-lateral-wrap'}>
-        <div className="header-lateral-options"></div>
+        <div className="header-lateral-options">
+          <FontAwesomeIcon className="logo-lateral-bars-icon" icon={faBars} onClick={() => setHideMenu(false)} />
+        </div>
         <div className="logo-lateral-bars">
-          <FontAwesomeIcon icon={faBars} onClick={() => setHideMenu(false)} />
           <ul className="header-options">
-          <li><a className='Lateral' href="/Home">Home</a></li>
+            <li><a className='Lateral' href="/Home">Home</a></li>
             <li><a className='Lateral' href="/InterestelarPage">Película Destacada</a></li>
             <li><a className='Lateral' href="#">Series</a></li>
             <li><a className='Lateral' href="#">Animación</a></li>

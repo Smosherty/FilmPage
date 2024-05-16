@@ -9,7 +9,6 @@ import Interestelar from '../components/interestelar/Interestelar'
 import Subs from '../components/subs/Subs'
 import Fee from '../components/fee/Fee'
 import Footer from '../components/footer/Footer'
-import HeaderLateral from '../components/headerLateral/HeaderLateral'
 
 
 function Home() {

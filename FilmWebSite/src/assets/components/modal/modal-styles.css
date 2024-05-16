@@ -1,0 +1,75 @@
+.modal-wrap{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 14;
+}
+
+.black-overlay{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #1A1A1A;
+  opacity: 40%;
+  z-index: 15;
+}
+
+.modal-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px 20px;
+  gap: 10%;
+  text-transform: none;
+  position: fixed;
+  background-color: #bdbdbd;
+  border-radius: 20px;
+  height: 40vh;
+  width: 80vw;
+  top: 30%;
+  z-index: 16;
+}
+
+.modal-button{
+  transition: .4s ease-in-out;
+  /* max-width: ; 
+
+  transition ease-in-out delay-400 hover:bg-[#181818] hover:text-white text-[12px] xl:text-[16px] max-w-40 xl:max-w-96 py-2 px-8 border text-[#181818] border-[#181818] rounded-full */
+}
+
+
+
+@media only screen and (max-width : 650px) {
+  
+
+
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-width : 650px) and (max-width : 1024px) {
+  
+
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width : 1024px) {
+  
+  .modal-box{
+    padding: 100px;
+    width: 40vw;
+  }
+
+}
+
+
+.modal-hide{
+  display: none;
+}

@@ -35,6 +35,11 @@
     justify-content: center; 
 }
 
+.fee-button a{
+    text-decoration: none;
+    color: white;
+}
+
 
 /* Smartphones (portrait) ----------- */
 @media only screen
