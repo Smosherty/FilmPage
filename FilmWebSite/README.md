@@ -33,6 +33,10 @@ Below, you will find instructions on how to open the website.
 
 5. npm install
 
+### Hosting
+
+https://filmwebsitedaniel.web.app/
+
 ## Built With
 
 `React`
