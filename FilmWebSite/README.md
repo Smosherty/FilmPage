@@ -1,4 +1,4 @@
-# FilmPage
+# FilmWebSite
 
 This is a personal project aimed at practicing React. To create it, To create this project I first made the design on the Figma website (https://www.figma.com/file/RwSCaHmJbOGAzTCdhTdNmh/Untitled?type=design&node-id=2-1186&mode=design) and was inspired by some series page.
 
