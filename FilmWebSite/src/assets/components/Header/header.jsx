@@ -12,8 +12,11 @@ function Header() {
     <>
       <div className="header-wrap">
         <div className="header">
-          <div className="logo-header">
-            <div className="logo-bars"><FontAwesomeIcon icon={faBars} onClick={() => setOpenHeader(true)} /></div>
+          <div className="logo-header"><a href="/Home">
+            <img src="images/logoHeader.png" alt="" />
+          </a>
+
+            <FontAwesomeIcon className="icon" icon={faBars} onClick={() => setOpenHeader(true)} />
           </div>
           <ul className="header-menu">
             <li className="header-main-a"><a href="/Home">Home</a></li>

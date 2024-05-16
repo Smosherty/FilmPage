@@ -26,12 +26,14 @@
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.logo-bars {
   font-size: xx-large;
   color: #ef3434;
   transition: 0.4s ease;
+}
+
+.logo-header img{
+  height: 100px;
+  width: 100px;
 }
 
 .logo-bars:hover {
@@ -175,10 +177,14 @@ details {
     visibility: hidden;
   }
 
+  .logo-header img{
+    display: none;
+  }
+
 }
 
 /* iPads (portrait) ----------- */
-@media only screen and (min-width : 650px) and (max-width : 1024px) {
+@media only screen and (min-width : 651px) and (max-width : 1024px) {
   .header-menu {
     list-style-type: none;
     display: flex;
@@ -196,6 +202,9 @@ details {
     color: #fff;
   }
 
+  .icon{
+    display: none;
+  }
 
 }
 
@@ -216,4 +225,9 @@ details {
     text-decoration: none;
     color: #fff;
   }
+
+  .icon{
+    display: none;
+  }
+
 }

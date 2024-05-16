@@ -18,6 +18,13 @@
     background-color: #1A1A1A;
     width: 210px;
 }
+.categories-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 
 .categories-icon-one{
     display: flex;
