@@ -9,21 +9,24 @@ import Interestelar from '../components/interestelar/Interestelar'
 import Subs from '../components/subs/Subs'
 import Fee from '../components/fee/Fee'
 import Footer from '../components/footer/Footer'
+import Modal from '../components/modal/Modal'
+
 
 
 function Home() {
   return (
     <>
-      <Header/>
-      <HeaderImg/>
-      <Title/>
-      <Carrusel/>
-      <Search/>
-      <Categories/>
-      <Interestelar/>
-      <Subs/>
-      <Fee/>
-      <Footer/>
+      <Modal/>
+      <Header />
+      <HeaderImg />
+      <Title />
+      <Carrusel />
+      <Search />
+      <Categories />
+      <Interestelar />
+      <Subs />
+      <Fee />
+      <Footer />
     </>
   )
 }

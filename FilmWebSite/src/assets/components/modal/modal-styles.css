@@ -32,24 +32,32 @@
   position: fixed;
   background-color: #bdbdbd;
   border-radius: 20px;
-  height: 40vh;
-  width: 80vw;
-  top: 30%;
+  height: 30vh;
+  width: 60vw;
+  top: 15%;
   z-index: 16;
 }
 
 .modal-button{
-  transition: .4s ease-in-out;
-  /* max-width: ; 
+  margin-top: 10px;
+  background-color: #d4483e;
+  color: white;
+  width: 100px;
+  height: 30px;
+  border: none;
+  border-radius: 100px;
+  transition: .2s ease-in-out;
+}
 
-  transition ease-in-out delay-400 hover:bg-[#181818] hover:text-white text-[12px] xl:text-[16px] max-w-40 xl:max-w-96 py-2 px-8 border text-[#181818] border-[#181818] rounded-full */
+.modal-button:hover{
+  background-color: #ff1100;
 }
 
 
 
 @media only screen and (max-width : 650px) {
   
-
+  
 
 }
 
@@ -64,7 +72,7 @@
   
   .modal-box{
     padding: 100px;
-    width: 40vw;
+    width: 30vw;
   }
 
 }

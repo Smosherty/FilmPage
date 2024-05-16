@@ -39,7 +39,7 @@ function Footer() {
                 <FontAwesomeIcon icon={faEnvelope} />
               </div>
               <div className="footer-icon">
-                <a href="/Peliculas.xml"><FontAwesomeIcon icon={faRss} /></a>
+                <a href="/film.xml"><FontAwesomeIcon icon={faRss} /></a>
               </div>
             </div>
             <button className="button">chat</button>
@@ -47,7 +47,7 @@ function Footer() {
         </div>
       </div>
       <div className="rigth">
-        <p>©2024 HBO Nordic AB. All Rights Reserved. HBO Max™ is used under license.</p>
+        <p>©2024 DNfilmWebSite. All Rights Reserved. DNfilms™ is used under license.</p>
       </div>
     </>
   )

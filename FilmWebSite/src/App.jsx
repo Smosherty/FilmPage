@@ -4,7 +4,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import InterestelarPage from './assets/page/interestelar-page/Interestelar-page'
 import Account from './assets/page/Acounts/Account'
 import PlansPage from './assets/page/plansPage/PlansPage'
-// import Modal from './assets/components/modal/Modal'
+
 
 
 
@@ -12,7 +12,7 @@ function App() {
 
   return (
     <>
-      {/* <Modal/> */}
+      
       <BrowserRouter>
         <Routes>
           <Route path='/Home' element={<Home />} />
